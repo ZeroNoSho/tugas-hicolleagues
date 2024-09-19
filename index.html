@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <header class="nav flex px-20 z-index-100">
+      <div class="flex name w-max">
+        <svg
+          width="34"
+          height="34"
+          viewBox="0 0 27 34"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M26.648 13.7776C26.648 12.0297 25.2257 10.613 23.473 10.613C21.7203 10.613 20.3006 12.0297 20.3006 13.7776C20.3006 17.61 17.1693 20.7288 13.3254 20.7288C9.47873 20.7288 6.34736 17.61 6.34736 13.7776C6.34736 9.94512 9.47873 6.82637 13.3254 6.82637C15.0781 6.82637 16.4977 5.40974 16.4977 3.66184C16.4977 1.91663 15.0781 0.5 13.3254 0.5C5.97881 0.5 0 6.4547 0 13.7776C0 19.6192 3.80842 24.5908 9.08287 26.3603C8.51775 26.8639 7.77245 27.1736 6.95617 27.1736C5.20347 27.1736 3.78385 28.5903 3.78385 30.3355C3.78385 32.0834 5.20347 33.5 6.95617 33.5C11.2478 33.5 14.887 30.6587 16.0827 26.767C22.1107 25.4958 26.648 20.1551 26.648 13.7776Z"
+            fill="#FFDE59"
+          ></path>
+          <path
+            d="M16.342 13.7749C16.342 13.9715 16.3229 14.1681 16.2847 14.362C16.2465 14.556 16.1892 14.7445 16.1127 14.9249C16.0363 15.1081 15.9435 15.2804 15.8343 15.4447C15.7251 15.609 15.5995 15.7625 15.4575 15.9026C15.3183 16.0399 15.1654 16.1665 15.0016 16.2742C14.8378 16.3847 14.6631 16.4789 14.4802 16.5543C14.2972 16.6297 14.1089 16.6863 13.9123 16.724C13.7185 16.7644 13.5219 16.7833 13.3253 16.7833C13.126 16.7833 12.9295 16.7644 12.7357 16.724C12.5418 16.6863 12.3534 16.6297 12.1705 16.5543C11.9876 16.4789 11.8129 16.3847 11.6491 16.2742C11.4826 16.1665 11.3297 16.0399 11.1904 15.9026C11.0512 15.7625 10.9256 15.609 10.8164 15.4447C10.7045 15.2804 10.6117 15.1081 10.538 14.9249C10.4615 14.7445 10.4042 14.556 10.366 14.362C10.3277 14.1681 10.3059 13.9715 10.3059 13.7749C10.3059 13.5783 10.3277 13.3817 10.366 13.1878C10.4042 12.9939 10.4615 12.8081 10.538 12.6249C10.6117 12.4418 10.7045 12.2694 10.8164 12.1051C10.9256 11.9408 11.0512 11.7873 11.1904 11.65C11.3297 11.5099 11.4826 11.3833 11.6491 11.2756C11.8129 11.1652 11.9876 11.0736 12.1705 10.9955C12.3534 10.9201 12.5418 10.8636 12.7357 10.8259C12.9295 10.7881 13.126 10.7666 13.3253 10.7666C13.5219 10.7666 13.7185 10.7881 13.9123 10.8259C14.1089 10.8636 14.2972 10.9201 14.4802 10.9955C14.6631 11.0736 14.8378 11.1652 15.0016 11.2756C15.1654 11.3833 15.3183 11.5099 15.4575 11.65C15.5995 11.7873 15.7251 11.9408 15.8343 12.1051C15.9435 12.2694 16.0363 12.4418 16.1127 12.6249C16.1892 12.8081 16.2465 12.9939 16.2847 13.1878C16.3229 13.3817 16.342 13.5783 16.342 13.7749Z"
+            fill="#FF1616"
+          ></path>
+        </svg>
+        <div class="border mx-20"></div>
+        <span
+          class="corporate m-auto navText"
+          style="font-size: 20px; font-weight: 500"
+          >CORPORATE SERVICE</span
+        >
+      </div>
+      <div class="m-auto flex w-max m-auto space-x-4">
+        <a class="nameNav" href="/">Acceleration Program </a>
+        <a class="nameNav" href="/">Corp Collaboration </a>
+        <a class="nameNav" href="/">Corp Training </a>
+        <a class="nameNav" href="/">Talent as a Service </a>
+        <a class="nameNav" href="/">Tech Service </a>
+      </div>
+      <div class="">
+        <button class="btn-masuk text-white m-auto w-max">masuk</button>
+      </div>
+    </header>
+
+    <div
+      style="
+        border-radius: 80px;
+        padding-bottom: 20px;
+        background-color: rgb(241, 246, 255);
+      "
+    >
+      <!-- home -->
+      <div class="home bg-blue flex rounded-l-lg">
+        <div class="p-20 flex flex-col space-y-8">
+          <h1 class="text-35 font-700 text-white" style="font-weight: 800">
+            <span class="italic" style="color: rgb(255, 222, 89)">
+              One-Stop Solution
+            </span>
+            Optimasi Bisnis <br />
+            Transformasi Digital Berkelanjutan
+          </h1>
+          <p class="text-14 text-white">
+            Perluas skala bisnis perusahaan Anda dalam dinamika transformasi
+            digital melalui layanan <br />
+            Service HiColleagues sebagai mitra akselerasi digital terpercaya &
+            kredibel
+          </p>
+          <div>
+            <button class="btn-now">DAFTAR SEKARANG</button>
+            <button class="btn-call">KONSULTASI GRATIS</button>
+          </div>
+        </div>
+
+        <div class="card-img">
+          <img
+            src="https://www.hicolleagues.com/img/corporate/corporate.png"
+            width="520"
+            height=""
+            alt=""
+            style="border-radius: 0px 0px 0px 80px"
+          />
+        </div>
+      </div>
+
+      <!-- patner -->
+      <div class="my-80">
+        <h1 class="text-center">
+          HiColleagues telah Dipercaya Perusahaan Ternama
+        </h1>
+        <div class="w-full item-center justify-center my-20 animate-scroll">
+          <img
+            src="https://t9003038375.p.clickup-attachments.com/t9003038375/37afc134-89f4-4909-a982-a0aee69e6ff1/OJK.png?view=open"
+            width="160"
+          />
+          <img
+            src="https://t9003038375.p.clickup-attachments.com/t9003038375/dd71d2b5-5503-4138-89ec-b9aed3a4d05e/BANK%20INDONESIA.png?view=open"
+            width="160"
+          />
+          <img
+            src="https://t9003038375.p.clickup-attachments.com/t9003038375/a5272331-4f8a-480e-b286-7ddbf3360e9c/BRI.png?view=open"
+            width="160"
+          />
+
+          <img
+            src="https://t9003038375.p.clickup-attachments.com/t9003038375/0e93b165-d7f1-4bb7-8d1d-f7e3f100045c/astrapay.png?view=open"
+            width="160"
+          />
+          <img
+            src="https://t9003038375.p.clickup-attachments.com/t9003038375/4eda10be-0d30-445b-a445-249ad80607a2/Univ%20Mercu%20Buana.png?view=open"
+            width="160"
+          />
+          <img
+            src="https://t9003038375.p.clickup-attachments.com/t9003038375/f03699c5-9b43-4546-9bcc-09a3e044d846/Univ%20Negeri%20Surabaya.png?view=open"
+            width="160"
+          /><img
+            data-v-5f35e613=""
+            src="https://t9003038375.p.clickup-attachments.com/t9003038375/08a97d18-3ec1-4572-b6e0-735d62cd1ffb/Univ%20Jendral%20Soedirman.png?view=open"
+            width="160"
+          />
+          <img
+            src="https://t9003038375.p.clickup-attachments.com/t9003038375/41e7dae8-c961-4f5f-bb28-b054b467264e/telkomsat.png?view=open"
+            width="160"
+          />
+          <img
+            src="https://t9003038375.p.clickup-attachments.com/t9003038375/a24ed1f9-f491-4c55-8e1b-494044698352/PLN.png?view=open"
+            width="160"
+          /><img
+            data-v-5f35e613=""
+            src="https://t9003038375.p.clickup-attachments.com/t9003038375/fb06943b-4464-40b9-bb2c-b3e697ea50a6/PROSA.png?view=open"
+            width="160"
+          /><img
+            data-v-5f35e613=""
+            src="https://t9003038375.p.clickup-attachments.com/t9003038375/50ca576d-30e7-46aa-924b-ef0492519999/ALTAMA%20SURYA%20ANUGERAH.png?view=open"
+            width="160"
+          /><img
+            data-v-5f35e613=""
+            src="https://t9003038375.p.clickup-attachments.com/t9003038375/3bae1d3f-4428-4ca9-97b6-fcb322b1e198/KAMORO.png?view=open"
+            width="160"
+          /><img
+            data-v-5f35e613=""
+            src="https://t9003038375.p.clickup-attachments.com/t9003038375/703571b9-441e-49f5-b283-5eb59f9ad39a/bankjatim.png?view=open"
+            width="160"
+          /><img
+            data-v-5f35e613=""
+            src="https://t9003038375.p.clickup-attachments.com/t9003038375/ec8b0154-c208-48a6-9396-cfd70927a9f3/prudential.png?view=open"
+            width="160"
+          />
+        </div>
+
+        <div
+          class="flex rounded-lg"
+          style="
+            background-color: rgb(241, 246, 255);
+            padding: 40px 40px;
+            margin: 0px 50px;
+          "
+        >
+          <div
+            class="flex flex-col item-center justify-center text-center space-y-2"
+          >
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21.6663 37.9166H8.33301C4.29967 37.9166 2.08301 35.6999 2.08301 31.6666V18.3333C2.08301 14.2999 4.29967 12.0833 8.33301 12.0833H16.6663C17.3497 12.0833 17.9163 12.6499 17.9163 13.3333V31.6666C17.9163 34.2999 19.033 35.4166 21.6663 35.4166C22.3497 35.4166 22.9163 35.9833 22.9163 36.6666C22.9163 37.3499 22.3497 37.9166 21.6663 37.9166ZM8.33301 14.5833C5.69967 14.5833 4.58301 15.6999 4.58301 18.3333V31.6666C4.58301 34.2999 5.69967 35.4166 8.33301 35.4166H16.333C15.733 34.4333 15.4163 33.1833 15.4163 31.6666V14.5833H8.33301Z"
+                fill="#7B7E8C"
+              ></path>
+              <path
+                d="M16.6663 14.5834H8.33301C7.64967 14.5834 7.08301 14.0167 7.08301 13.3334V10.0001C7.08301 7.46675 9.13301 5.41675 11.6663 5.41675H16.8497C17.233 5.41675 17.5997 5.60004 17.833 5.90004C18.0664 6.21671 18.1497 6.61675 18.0497 6.98342C17.9497 7.35009 17.9163 7.76675 17.9163 8.33341V13.3334C17.9163 14.0167 17.3497 14.5834 16.6663 14.5834ZM9.58301 12.0834H15.4163V8.33341C15.4163 8.18341 15.4163 8.05008 15.4163 7.91675H11.6663C10.5163 7.91675 9.58301 8.85008 9.58301 10.0001V12.0834Z"
+                fill="#7B7E8C"
+              ></path>
+              <path
+                d="M23.333 22.9166C22.6497 22.9166 22.083 22.3499 22.083 21.6666V13.3333C22.083 12.6499 22.6497 12.0833 23.333 12.0833C24.0163 12.0833 24.583 12.6499 24.583 13.3333V21.6666C24.583 22.3499 24.0163 22.9166 23.333 22.9166Z"
+                fill="#7B7E8C"
+              ></path>
+              <path
+                d="M30 22.9166C29.3167 22.9166 28.75 22.3499 28.75 21.6666V13.3333C28.75 12.6499 29.3167 12.0833 30 12.0833C30.6833 12.0833 31.25 12.6499 31.25 13.3333V21.6666C31.25 22.3499 30.6833 22.9166 30 22.9166Z"
+                fill="#7B7E8C"
+              ></path>
+              <path
+                d="M29.9997 37.9166H23.333C22.6497 37.9166 22.083 37.3499 22.083 36.6666V29.9999C22.083 28.3999 23.3997 27.0833 24.9997 27.0833H28.333C29.933 27.0833 31.2497 28.3999 31.2497 29.9999V36.6666C31.2497 37.3499 30.683 37.9166 29.9997 37.9166ZM24.583 35.4166H28.7497V29.9999C28.7497 29.7666 28.5663 29.5833 28.333 29.5833H24.9997C24.7663 29.5833 24.583 29.7666 24.583 29.9999V35.4166Z"
+                fill="#7B7E8C"
+              ></path>
+              <path
+                d="M10 29.5834C9.31667 29.5834 8.75 29.0167 8.75 28.3334V21.6667C8.75 20.9834 9.31667 20.4167 10 20.4167C10.6833 20.4167 11.25 20.9834 11.25 21.6667V28.3334C11.25 29.0167 10.6833 29.5834 10 29.5834Z"
+                fill="#7B7E8C"
+              ></path>
+              <path
+                d="M31.667 37.9166H21.667C17.6337 37.9166 15.417 35.6999 15.417 31.6666V8.33325C15.417 4.29992 17.6337 2.08325 21.667 2.08325H31.667C35.7003 2.08325 37.917 4.29992 37.917 8.33325V31.6666C37.917 35.6999 35.7003 37.9166 31.667 37.9166ZM21.667 4.58325C19.0337 4.58325 17.917 5.69992 17.917 8.33325V31.6666C17.917 34.2999 19.0337 35.4166 21.667 35.4166H31.667C34.3003 35.4166 35.417 34.2999 35.417 31.6666V8.33325C35.417 5.69992 34.3003 4.58325 31.667 4.58325H21.667Z"
+                fill="#7B7E8C"
+              ></path>
+            </svg>
+            <h3 style="font-size: 24px">30+</h3>
+            <p class="text-11">
+              Perusahaan top di Indonesia telah puas terhadap layanan
+              HiColleagues
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col item-center justify-center text-center space-y-2"
+          >
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.83301 31.2499C5.14967 31.2499 4.58301 30.6833 4.58301 29.9999V11.6666C4.58301 4.31659 6.81634 2.08325 14.1663 2.08325H25.833C33.183 2.08325 35.4163 4.31659 35.4163 11.6666V28.3333C35.4163 28.5999 35.4163 28.8499 35.3997 29.1166C35.3497 29.7999 34.733 30.3333 34.0663 30.2833C33.383 30.2333 32.8497 29.6333 32.8997 28.9499C32.9163 28.7499 32.9163 28.5333 32.9163 28.3333V11.6666C32.9163 5.71659 31.7997 4.58325 25.833 4.58325H14.1663C8.19967 4.58325 7.08301 5.71659 7.08301 11.6666V29.9999C7.08301 30.6833 6.51634 31.2499 5.83301 31.2499Z"
+                fill="#7B7E8C"
+              ></path>
+              <path
+                d="M28.333 37.9167H11.6663C7.76634 37.9167 4.58301 34.7333 4.58301 30.8333V29.75C4.58301 26.4333 7.28301 23.75 10.583 23.75H34.1663C34.8497 23.75 35.4163 24.3167 35.4163 25V30.8333C35.4163 34.7333 32.233 37.9167 28.333 37.9167ZM10.583 26.25C8.64967 26.25 7.08301 27.8167 7.08301 29.75V30.8333C7.08301 33.3667 9.13301 35.4167 11.6663 35.4167H28.333C30.8663 35.4167 32.9163 33.3667 32.9163 30.8333V26.25H10.583Z"
+                fill="#7B7E8C"
+              ></path>
+              <path
+                d="M26.6663 12.9167H13.333C12.6497 12.9167 12.083 12.3501 12.083 11.6667C12.083 10.9834 12.6497 10.4167 13.333 10.4167H26.6663C27.3497 10.4167 27.9163 10.9834 27.9163 11.6667C27.9163 12.3501 27.3497 12.9167 26.6663 12.9167Z"
+                fill="#7B7E8C"
+              ></path>
+              <path
+                d="M21.6663 18.75H13.333C12.6497 18.75 12.083 18.1833 12.083 17.5C12.083 16.8167 12.6497 16.25 13.333 16.25H21.6663C22.3497 16.25 22.9163 16.8167 22.9163 17.5C22.9163 18.1833 22.3497 18.75 21.6663 18.75Z"
+                fill="#7B7E8C"
+              ></path>
+            </svg>
+            <h3 style="font-size: 24px">50+</h3>
+            <p class="text-11">
+              Program pelatihan konstruktif &amp; kredibel untuk kebutuhan
+              perusahaan mitra
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col item-center justify-center text-center space-y-2"
+          >
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M29.9999 13.183C29.9499 13.183 29.9165 13.183 29.8665 13.183H29.7832C26.6332 13.083 24.2832 10.6496 24.2832 7.64961C24.2832 4.58295 26.7832 2.09961 29.8332 2.09961C32.8832 2.09961 35.3832 4.59961 35.3832 7.64961C35.3665 10.6663 33.0165 13.0996 30.0165 13.1996C30.0165 13.1829 30.0165 13.183 29.9999 13.183ZM29.8332 4.58295C28.1499 4.58295 26.7832 5.94962 26.7832 7.63295C26.7832 9.28295 28.0665 10.6163 29.7165 10.683C29.7332 10.6663 29.8665 10.6663 30.0165 10.683C31.6332 10.5996 32.8832 9.26629 32.8999 7.63295C32.8999 5.94962 31.5332 4.58295 29.8332 4.58295Z"
+                fill="#7B7E8C"
+              ></path>
+              <path
+                d="M30.0165 25.466C29.3665 25.466 28.7165 25.416 28.0665 25.2993C27.3832 25.1827 26.9332 24.5327 27.0498 23.8494C27.1665 23.166 27.8165 22.716 28.4998 22.8327C30.5498 23.1827 32.7165 22.7994 34.1665 21.8327C34.9498 21.316 35.3665 20.666 35.3665 20.016C35.3665 19.366 34.9332 18.7327 34.1665 18.216C32.7165 17.2493 30.5165 16.866 28.4498 17.2327C27.7665 17.366 27.1165 16.8993 26.9998 16.216C26.8832 15.5327 27.3332 14.8827 28.0165 14.766C30.7332 14.2827 33.5498 14.7993 35.5498 16.1327C37.0165 17.116 37.8665 18.516 37.8665 20.016C37.8665 21.4993 37.0332 22.916 35.5498 23.916C34.0332 24.916 32.0665 25.466 30.0165 25.466Z"
+                fill="#7B7E8C"
+              ></path>
+              <path
+                d="M9.94981 13.1833C9.93314 13.1833 9.91647 13.1833 9.91647 13.1833C6.91647 13.0833 4.56647 10.6499 4.5498 7.64991C4.5498 4.58325 7.04981 2.08325 10.0998 2.08325C13.1498 2.08325 15.6498 4.58325 15.6498 7.63326C15.6498 10.6499 13.2998 13.0833 10.2998 13.1833L9.94981 11.9333L10.0665 13.1833C10.0331 13.1833 9.98314 13.1833 9.94981 13.1833ZM10.1165 10.6833C10.2165 10.6833 10.2998 10.6832 10.3998 10.6999C11.8831 10.6332 13.1831 9.29991 13.1831 7.64991C13.1831 5.96658 11.8165 4.59991 10.1331 4.59991C8.44981 4.59991 7.08314 5.96658 7.08314 7.64991C7.08314 9.28325 8.3498 10.5999 9.96647 10.6999C9.98314 10.6832 10.0498 10.6833 10.1165 10.6833Z"
+                fill="#7B7E8C"
+              ></path>
+              <path
+                d="M9.93301 25.466C7.88301 25.466 5.91634 24.916 4.39967 23.916C2.93301 22.9327 2.08301 21.516 2.08301 20.016C2.08301 18.5327 2.93301 17.116 4.39967 16.1327C6.39967 14.7993 9.21634 14.2827 11.933 14.766C12.6163 14.8827 13.0663 15.5327 12.9497 16.216C12.833 16.8993 12.183 17.366 11.4997 17.2327C9.43301 16.866 7.24968 17.2493 5.78301 18.216C4.99968 18.7327 4.58301 19.366 4.58301 20.016C4.58301 20.666 5.01634 21.316 5.78301 21.8327C7.23301 22.7994 9.39967 23.1827 11.4497 22.8327C12.133 22.716 12.783 23.1827 12.8997 23.8494C13.0163 24.5327 12.5663 25.1827 11.883 25.2993C11.233 25.416 10.583 25.466 9.93301 25.466Z"
+                fill="#7B7E8C"
+              ></path>
+              <path
+                d="M19.9999 25.6341C19.9499 25.6341 19.9165 25.6341 19.8665 25.6341H19.7832C16.6332 25.5341 14.2832 23.1008 14.2832 20.1008C14.2832 17.0341 16.7832 14.5508 19.8332 14.5508C22.8832 14.5508 25.3832 17.0508 25.3832 20.1008C25.3665 23.1175 23.0165 25.5508 20.0165 25.6508C20.0165 25.6341 20.0165 25.6341 19.9999 25.6341ZM19.8332 17.0341C18.1499 17.0341 16.7832 18.4008 16.7832 20.0841C16.7832 21.7341 18.0665 23.0675 19.7165 23.1341C19.7332 23.1175 19.8665 23.1175 20.0165 23.1341C21.6332 23.0508 22.8832 21.7175 22.8999 20.0841C22.8999 18.4175 21.5332 17.0341 19.8332 17.0341Z"
+                fill="#7B7E8C"
+              ></path>
+              <path
+                d="M19.9995 37.933C17.9995 37.933 15.9995 37.4163 14.4495 36.3663C12.9828 35.383 12.1328 33.983 12.1328 32.483C12.1328 30.9996 12.9661 29.5663 14.4495 28.583C17.5661 26.5163 22.4495 26.5163 25.5495 28.583C27.0161 29.5663 27.8661 30.9663 27.8661 32.4663C27.8661 33.9496 27.0328 35.383 25.5495 36.3663C23.9995 37.3996 21.9995 37.933 19.9995 37.933ZM15.8328 30.683C15.0495 31.1996 14.6328 31.8496 14.6328 32.4996C14.6328 33.1496 15.0661 33.783 15.8328 34.2996C18.0828 35.8163 21.8995 35.8163 24.1495 34.2996C24.9328 33.783 25.3495 33.133 25.3495 32.483C25.3495 31.833 24.9161 31.1996 24.1495 30.683C21.9162 29.1663 18.0995 29.183 15.8328 30.683Z"
+                fill="#7B7E8C"
+              ></path>
+            </svg>
+            <h3 style="font-size: 24px">1.000+</h3>
+            <p class="text-11">
+              Peserta telah menyelesaikan &amp; puas terhadap pelatihan
+              HiColleagues
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col item-center justify-center text-center space-y-2"
+          >
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_10_53413)">
+                <path
+                  d="M20.1998 22.5507C20.1665 22.5507 20.1165 22.5507 20.0831 22.5507C20.0331 22.5507 19.9665 22.5507 19.9165 22.5507C16.1331 22.434 13.2998 19.484 13.2998 15.8507C13.2998 12.1507 16.3165 9.13403 20.0165 9.13403C23.7165 9.13403 26.7331 12.1507 26.7331 15.8507C26.7165 19.5007 23.8665 22.434 20.2498 22.5507C20.2165 22.5507 20.2165 22.5507 20.1998 22.5507ZM19.9998 11.6174C17.6665 11.6174 15.7831 13.5174 15.7831 15.834C15.7831 18.1174 17.5665 19.9674 19.8331 20.0507C19.8831 20.034 20.0498 20.034 20.2165 20.0507C22.4498 19.934 24.1998 18.1007 24.2165 15.834C24.2165 13.5174 22.3331 11.6174 19.9998 11.6174Z"
+                  fill="#7B7E8C"
+                ></path>
+                <path
+                  d="M20.0001 37.9172C15.5167 37.9172 11.2334 36.2505 7.91672 33.2172C7.61672 32.9505 7.48339 32.5505 7.51672 32.1672C7.73339 30.1839 8.96672 28.3339 11.0167 26.9672C15.9834 23.6672 24.0334 23.6672 28.9834 26.9672C31.0334 28.3505 32.2667 30.1839 32.4834 32.1672C32.5334 32.5672 32.3834 32.9505 32.0834 33.2172C28.7667 36.2505 24.4834 37.9172 20.0001 37.9172ZM10.1334 31.8339C12.9001 34.1505 16.3834 35.4172 20.0001 35.4172C23.6167 35.4172 27.1001 34.1505 29.8667 31.8339C29.5667 30.8172 28.7667 29.8339 27.5834 29.0339C23.4834 26.3005 16.5334 26.3005 12.4001 29.0339C11.2167 29.8339 10.4334 30.8172 10.1334 31.8339Z"
+                  fill="#7B7E8C"
+                ></path>
+                <path
+                  d="M19.9997 37.9166C10.1163 37.9166 2.08301 29.8833 2.08301 19.9999C2.08301 10.1166 10.1163 2.08325 19.9997 2.08325C29.883 2.08325 37.9163 10.1166 37.9163 19.9999C37.9163 29.8833 29.883 37.9166 19.9997 37.9166ZM19.9997 4.58325C11.4997 4.58325 4.58301 11.4999 4.58301 19.9999C4.58301 28.4999 11.4997 35.4166 19.9997 35.4166C28.4997 35.4166 35.4163 28.4999 35.4163 19.9999C35.4163 11.4999 28.4997 4.58325 19.9997 4.58325Z"
+                  fill="#7B7E8C"
+                ></path>
+              </g>
+              <defs>
+                <clipPath id="clip0_10_53413">
+                  <rect width="40" height="40" fill="white"></rect>
+                </clipPath>
+              </defs>
+            </svg>
+            <h3 style="font-size: 24px">100+</h3>
+            <p class="text-11">
+              Tenaga kerja berkualitas telah ditempatkan di perusahaan mitra
+              ternama
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col item-center justify-center text-right space-y-4"
+            style="margin-left: 20px"
+          >
+            <h3 style="font-size: 19px">
+              Sejak 2020 HiColleagues Berkomitmen sebagai Mitra Corporate
+              Kredibel & Terpercaya
+            </h3>
+            <p class="text-14">
+              Inovasi & Layanan HiColleagues terbukti memberikan dampak
+              signifikan terhadap skala pertumbuhan perusahaan mitra
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Layanan  -->
+      <div class="mx-20 my-80" style="margin: 0px 50px">
+        <h1 class="text-center">
+          Layanan Akselerasi Transformasi Digital Kami
+        </h1>
+        <div class="flex justify-center item-center my-20">
+          <div class="w-max space-y-8" style="width: 700px; margin-right: auto">
+            <h3 class="layanan-font">Corporate Collaboration</h3>
+            <p>
+              Kolaborasi efektif dalam bersinergi dan berinovasi bersama
+              perusahaan mitra dalam mencapai tujuan bisnis melalui
+              program-program unggulan seperti Workshop, Webinar, Mini Bootcamp,
+              Bootcamp, dan General Training yang dirancang untuk kebutuhan
+              masyarakat luas atau segmentasi tertentu.
+            </p>
+            <button class="btn-layanan text-white m-auto w-max">
+              PELAJARI SELENGKAPNYA
+            </button>
+          </div>
+
+          <img
+            src="https://www.hicolleagues.com/img/corporate/mask1.png"
+            alt=""
+          />
+        </div>
+        <div class="flex justify-center item-center my-20">
+          <img
+            src="https://www.hicolleagues.com/img/corporate/mask2.png"
+            alt=""
+          />
+          <div class="w-max space-y-8" style="width: 700px; margin-left: auto">
+            <h3 class="layanan-font">Corporate Training</h3>
+            <p>
+              Program kemitraan pelatihan dalam pengembangan keterampilan tenaga
+              kerja/karyawan perusahaan mitra melalui Upskilling dan
+              New-Skilling yang tersedia dalam 2 kategori pelatihan yakni
+              General Corporate Training dan Certified Corporate Training.
+            </p>
+            <button class="btn-layanan text-white m-auto w-max">
+              PELAJARI SELENGKAPNYA
+            </button>
+          </div>
+        </div>
+        <div class="flex justify-center item-center my-20">
+          <div class="w-max space-y-8" style="width: 700px; margin-right: auto">
+            <h3 class="layanan-font">Talent as a Service</h3>
+            <p>
+              Program kemitraan dalam pemenuhan kebutuhan tenaga kerja atau
+              talenta digital perusahaan mitra sebagai langkah efisien dari
+              proses rekrutmen kandidat dan manajemen tenaga kerja yang selaras
+              dengan kebutuhan dan tujuan bisnis yang diinginkan.
+            </p>
+            <button class="btn-layanan text-white m-auto w-max">
+              PELAJARI SELENGKAPNYA
+            </button>
+          </div>
+
+          <img
+            src="https://www.hicolleagues.com/img/corporate/mask3.png"
+            alt=""
+          />
+        </div>
+        <div class="flex justify-center item-center my-20">
+          <img
+            src="https://www.hicolleagues.com/img/corporate/mask4.png"
+            alt=""
+          />
+          <div class="w-max space-y-8" style="width: 700px; margin-left: auto">
+            <h3 class="layanan-font">Technology Service</h3>
+            <p>
+              Akselerasi pengembangan produk digital perusahaan mitra melalui
+              pemenuhan dan manajemen sumber daya manusia atau talenta digital,
+              implementasi proses pengembangan produk, layanan IT Consulting
+              hingga IT Support sesuai kebutuhan dan tujuan bisnis yang
+              diinginkan.
+            </p>
+            <button class="btn-layanan text-white m-auto w-max">
+              PELAJARI SELENGKAPNYA
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="my-80 flex flex-col item-center justify-center">
+      <div class="text-center">
+        <h1>Program Akselerasi Digital</h1>
+        <p>
+          Rekomendasi program pelatihan untuk akselerasi skill talenta digital
+          dan peningkatan performa karir cemerlang
+        </p>
+      </div>
+
+      <div class="flex" style="margin: 40px 20px">
+        <div
+          class="flex flex-col space-y-8 box"
+          style="width: 300px; margin: 0px 20px"
+        >
+          <img
+            src="https://t9003038375.p.clickup-attachments.com/t9003038375/85e1a6b9-901f-495e-a19c-39c20d2bf167/179%201.png?view=open"
+            alt=""
+            style="width: 100%; height: 200px; border-radius: 20px 20px 0px 0px"
+          />
+          <div class="px-20 space-y-4">
+            <h2 style="font-size: 17px; height: 50px">
+              Pelatihan dan Sertifikasi Big Data Alibaba Cloud
+            </h2>
+
+            <div class="flex space-x-4">
+              <div
+                style="
+                  background-color: rgb(241, 246, 255);
+                  font-size: 12px;
+                  padding: 2px 5px;
+                  border-radius: 9999px;
+                "
+              >
+                <p>Certified</p>
+              </div>
+              <div
+                style="
+                  background-color: rgb(250, 236, 235);
+                  font-size: 12px;
+                  padding: 2px 5px;
+                  border-radius: 9999px;
+                "
+              >
+                <p>Training</p>
+              </div>
+              <div
+                style="
+                  background-color: rgb(250, 246, 231);
+                  font-size: 12px;
+                  padding: 2px 5px;
+                  border-radius: 9999px;
+                "
+              >
+                <p>Daring</p>
+              </div>
+            </div>
+
+            <p
+              style="font-size: 12px"
+              class="text-justify word-spacing clamped-text"
+            >
+              Dengan mengikuti pelatiihan dan sertifikasi Alibaba Cloud Big
+              Data, kamu bisa menyimpan, mengatur, dan mengelola data dalam
+              jumlah besar secara canggih. Di era transformasi digital yang
+              terus meningkat di semua bidang industri, kebutuhan akan ahli yang
+              mahir dalam mengelola dan menganalisis big data semakin penting.
+              Pada saat ini kendala yang dihadapi perusahaan adalah menemukan
+              orang yang benar-benar terampil, dalam hal ini yang sering kali
+              menjadi kendala besar bagi perusahaan yang ingin mengoptimalkan
+              penggunaan data mereka. Untuk mengatasi tantangan ini, pelatihan
+              sertifikasi dalam big data sangat penting untuk mengisi gap
+              keterampilan dan menyiapkan tenaga kerja untuk masa depan yang
+              semakin terhubung dengan data. Dapatkan sertifikasi Big Data
+              Alibaba Cloud untuk membuka peluang kariermu dan siap bersaing
+              dalam dunia industri yang didorong oleh data
+            </p>
+
+            <h2 style="font-size: 18.72px; color: rgb(22, 44, 162)">
+              IDR 3,000,000
+            </h2>
+          </div>
+
+          <div
+            style="
+              background-color: rgb(241, 246, 255);
+              height: 100%;
+              border-radius: 10px;
+              padding-top: 10px;
+              padding-bottom: 10px;
+            "
+            class="flex item-center px-20"
+          >
+            <svg
+              width="26"
+              height="26"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M30.0001 6.25H28.7501V5C28.7501 4.66848 28.6184 4.35054 28.384 4.11612C28.1495 3.8817 27.8316 3.75 27.5001 3.75C27.1686 3.75 26.8506 3.8817 26.6162 4.11612C26.3818 4.35054 26.2501 4.66848 26.2501 5V6.25H14.0834V5C14.0128 4.73341 13.856 4.49765 13.6375 4.32945C13.4189 4.16125 13.1509 4.07005 12.8751 4.07005C12.5993 4.07005 12.3313 4.16125 12.1127 4.32945C11.8942 4.49765 11.7374 4.73341 11.6667 5V6.25H10.0001C8.78451 6.25 7.61872 6.73289 6.75917 7.59243C5.89963 8.45197 5.41675 9.61776 5.41675 10.8333V29.1667C5.41675 30.3822 5.89963 31.548 6.75917 32.4076C7.61872 33.2671 8.78451 33.75 10.0001 33.75H30.0001C31.2157 33.75 32.3814 33.2671 33.241 32.4076C34.1005 31.548 34.5834 30.3822 34.5834 29.1667V10.8333C34.5834 9.61776 34.1005 8.45197 33.241 7.59243C32.3814 6.73289 31.2157 6.25 30.0001 6.25ZM32.0834 29.1667C32.0834 29.7192 31.8639 30.2491 31.4732 30.6398C31.0825 31.0305 30.5526 31.25 30.0001 31.25H10.0001C9.44755 31.25 8.91764 31.0305 8.52694 30.6398C8.13624 30.2491 7.91675 29.7192 7.91675 29.1667V16.25H32.0834V29.1667ZM7.91675 13.75V10.8333C7.91675 10.2808 8.13624 9.7509 8.52694 9.36019C8.91764 8.96949 9.44755 8.75 10.0001 8.75H30.0001C30.5526 8.75 31.0825 8.96949 31.4732 9.36019C31.8639 9.7509 32.0834 10.2808 32.0834 10.8333V13.75H7.91675Z"
+                fill="#7B7E8C"
+              ></path>
+            </svg>
+            <span style="font-size: 15px">25 Jul 2024</span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col space-y-8 box"
+          style="width: 300px; margin: 0px 20px"
+        >
+          <img
+            src="https://t9003038375.p.clickup-attachments.com/t9003038375/9ad52349-86aa-49c9-a200-9ce484afcb4b/52561%201.png?view=open"
+            alt=""
+            style="width: 100%; height: 200px; border-radius: 20px 20px 0px 0px"
+          />
+          <div class="px-20 space-y-4">
+            <h2 style="font-size: 17px; height: 50px">Junior Coder</h2>
+
+            <div class="flex space-x-4">
+              <div
+                style="
+                  background-color: rgb(241, 246, 255);
+                  font-size: 12px;
+                  padding: 2px 5px;
+                  border-radius: 9999px;
+                "
+              >
+                <p>Certified</p>
+              </div>
+              <div
+                style="
+                  background-color: rgb(250, 236, 235);
+                  font-size: 12px;
+                  padding: 2px 5px;
+                  border-radius: 9999px;
+                "
+              >
+                <p>Training</p>
+              </div>
+              <div
+                style="
+                  background-color: rgb(250, 246, 231);
+                  font-size: 12px;
+                  padding: 2px 5px;
+                  border-radius: 9999px;
+                "
+              >
+                <p>Daring</p>
+              </div>
+            </div>
+
+            <p
+              style="font-size: 12px"
+              class="text-justify word-spacing clamped-text"
+            >
+              Skema Sertifikasi Okupasi Pemrogram Junior merupakan skema
+              sertifikasi okupasi yang disusun oleh Komite Skema Lembaga
+              Sertifikasi Profesi LPK The Indonesia Capital Market Institute
+              (LSP LPK TICMI) yang mengacu kepada Keputusan Menteri
+              Ketenagakerjaan Republik Indonesia Nomor 282 tahun 2016 tentang
+              Penetapan Standar Kompetensi Kerja Nasional Indonesia Kategori
+              Informasi dan Komunikasi Golongan Pokok Aktivitas Pemrograman
+              Konsultasi Komputer Dan Kegiatan Yang Berhubungan Dengan Itu
+              (YBDI) Bidang Software Development Subbidang Pemrograman, dan Peta
+              Okupasi Nasional dalam Kerangka Kualifikasi Nasional Indonesia
+              (KKNI) pada Area Fungsi Teknologi Informasi dan Komunikasi (TIK)
+              No.172/KOMINFO/BLSDM/KS.01.07/7/2017, untuk memastikan kompetensi
+              peserta pelatihan untuk jabatan Pemrogram Junior yang dilaksanakan
+              oleh LPK TICMI untuk memenuhi permintaan dunia indsutri swasta
+              maupun pemerintahan/BUMN yang memerlukan tenaga kerja/sdm pada
+              jabatan Pemrogram Junior. Pelatihan untuk calon pemrogram junior
+              didesain untuk memenuhi standar kompetensi yang telah ditetapkan
+              oleh Badan Nasional Sertifikasi Profesi. Ini disusun untuk
+              menjawab kebutuhan industri yang membutuhkan profesional muda
+              dengan keterampilan pemrograman junior di bidang teknologi
+              informasi, baik untuk saat ini maupun masa depan. Program ini juga
+              disusun untuk memenuhi persyaratan sertifikasi kompetensi bagi
+              peserta didik di Lembaga Sertifikasi Profesi TICMI. Skema
+              sertifikasi ini diharapkan dapat menjadi panduan dalam
+              pengembangan program pendidikan dan pelatihan yang berfokus pada
+              kompetensi. Tujuan akhirnya adalah untuk meningkatkan daya saing
+              tenaga kerja di pasar kerja lokal, nasional, dan internasional di
+              sektor teknologi informasi.
+            </p>
+
+            <h2 style="font-size: 18.72px; color: rgb(22, 44, 162)">
+              IDR 3,000,000
+            </h2>
+          </div>
+
+          <div
+            style="
+              background-color: rgb(241, 246, 255);
+              height: 100%;
+              border-radius: 10px;
+              padding-top: 10px;
+              padding-bottom: 10px;
+            "
+            class="flex item-center px-20"
+          >
+            <svg
+              width="26"
+              height="26"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M30.0001 6.25H28.7501V5C28.7501 4.66848 28.6184 4.35054 28.384 4.11612C28.1495 3.8817 27.8316 3.75 27.5001 3.75C27.1686 3.75 26.8506 3.8817 26.6162 4.11612C26.3818 4.35054 26.2501 4.66848 26.2501 5V6.25H14.0834V5C14.0128 4.73341 13.856 4.49765 13.6375 4.32945C13.4189 4.16125 13.1509 4.07005 12.8751 4.07005C12.5993 4.07005 12.3313 4.16125 12.1127 4.32945C11.8942 4.49765 11.7374 4.73341 11.6667 5V6.25H10.0001C8.78451 6.25 7.61872 6.73289 6.75917 7.59243C5.89963 8.45197 5.41675 9.61776 5.41675 10.8333V29.1667C5.41675 30.3822 5.89963 31.548 6.75917 32.4076C7.61872 33.2671 8.78451 33.75 10.0001 33.75H30.0001C31.2157 33.75 32.3814 33.2671 33.241 32.4076C34.1005 31.548 34.5834 30.3822 34.5834 29.1667V10.8333C34.5834 9.61776 34.1005 8.45197 33.241 7.59243C32.3814 6.73289 31.2157 6.25 30.0001 6.25ZM32.0834 29.1667C32.0834 29.7192 31.8639 30.2491 31.4732 30.6398C31.0825 31.0305 30.5526 31.25 30.0001 31.25H10.0001C9.44755 31.25 8.91764 31.0305 8.52694 30.6398C8.13624 30.2491 7.91675 29.7192 7.91675 29.1667V16.25H32.0834V29.1667ZM7.91675 13.75V10.8333C7.91675 10.2808 8.13624 9.7509 8.52694 9.36019C8.91764 8.96949 9.44755 8.75 10.0001 8.75H30.0001C30.5526 8.75 31.0825 8.96949 31.4732 9.36019C31.8639 9.7509 32.0834 10.2808 32.0834 10.8333V13.75H7.91675Z"
+                fill="#7B7E8C"
+              ></path>
+            </svg>
+            <span style="font-size: 15px">25 Jul 2024</span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col space-y-8 box"
+          style="width: 300px; margin: 0px 20px"
+        >
+          <img
+            src="https://t9003038375.p.clickup-attachments.com/t9003038375/9ad52349-86aa-49c9-a200-9ce484afcb4b/52561%201.png?view=open"
+            alt=""
+            style="width: 100%; height: 200px; border-radius: 20px 20px 0px 0px"
+          />
+          <div class="px-20 space-y-4">
+            <h2 style="font-size: 17px; height: 50px">Junior Web Programmer</h2>
+
+            <div class="flex space-x-4">
+              <div
+                style="
+                  background-color: rgb(241, 246, 255);
+                  font-size: 12px;
+                  padding: 2px 5px;
+                  border-radius: 9999px;
+                "
+              >
+                <p>Certified</p>
+              </div>
+              <div
+                style="
+                  background-color: rgb(250, 236, 235);
+                  font-size: 12px;
+                  padding: 2px 5px;
+                  border-radius: 9999px;
+                "
+              >
+                <p>Training</p>
+              </div>
+              <div
+                style="
+                  background-color: rgb(250, 246, 231);
+                  font-size: 12px;
+                  padding: 2px 5px;
+                  border-radius: 9999px;
+                "
+              >
+                <p>Daring</p>
+              </div>
+            </div>
+
+            <p
+              style="font-size: 12px"
+              class="text-justify word-spacing clamped-text"
+            >
+              Dengan semakin berkembangnya penggunaan teknologi informasi di
+              berbagai sektor, permintaan akan sertifikasi kompetensi di bidang
+              teknologi informasi terus meningkat. Pelatihan Junior Web
+              Programmer dirancang untuk mempersiapkan peserta dalam memenuhi
+              kebutuhan industri teknologi informasi. Skema Sertifikasi Okupasi
+              untuk Junior Web Programmer ini merupakan kerangka sertifikasi
+              yang disusun oleh Lembaga Sertifikasi Profesi LPK The Indonesia
+              Capital Market Institute (LSP LPK TICMI), merujuk pada Keputusan
+              Menteri Ketenagakerjaan Republik Indonesia Nomor 282 tahun 2016
+              tentang Standar Kompetensi Kerja Nasional Indonesia di Kategori
+              Informasi dan Komunikasi, khususnya dalam Aktivitas Pemrograman,
+              Konsultasi Komputer, dan Kegiatan Terkait di Bidang Pengembangan
+              Perangkat Lunak dengan fokus pada Pemrograman. Sertifikasi BNSP
+              Pelatihan Junior Web Programmer ini disusun untuk memenuhi
+              kebutuhan tenaga kerja yang kompeten di industri, khususnya di
+              posisi Junior Web Programmer, yang sangat dibutuhkan baik saat ini
+              maupun di masa mendatang. Skema ini juga diharapkan dapat menjadi
+              panduan dalam pengembangan pendidikan dan pelatihan berbasis
+              kompetensi, serta berkontribusi dalam meningkatkan daya saing
+              tenaga kerja di pasar kerja regional, nasional, dan internasional
+              di bidang teknologi informasi.
+            </p>
+
+            <h2 style="font-size: 18.72px; color: rgb(22, 44, 162)">
+              IDR 3,000,000
+            </h2>
+          </div>
+
+          <div
+            style="
+              background-color: rgb(241, 246, 255);
+              height: 100%;
+              border-radius: 10px;
+              padding-top: 10px;
+              padding-bottom: 10px;
+            "
+            class="flex item-center px-20"
+          >
+            <svg
+              width="26"
+              height="26"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M30.0001 6.25H28.7501V5C28.7501 4.66848 28.6184 4.35054 28.384 4.11612C28.1495 3.8817 27.8316 3.75 27.5001 3.75C27.1686 3.75 26.8506 3.8817 26.6162 4.11612C26.3818 4.35054 26.2501 4.66848 26.2501 5V6.25H14.0834V5C14.0128 4.73341 13.856 4.49765 13.6375 4.32945C13.4189 4.16125 13.1509 4.07005 12.8751 4.07005C12.5993 4.07005 12.3313 4.16125 12.1127 4.32945C11.8942 4.49765 11.7374 4.73341 11.6667 5V6.25H10.0001C8.78451 6.25 7.61872 6.73289 6.75917 7.59243C5.89963 8.45197 5.41675 9.61776 5.41675 10.8333V29.1667C5.41675 30.3822 5.89963 31.548 6.75917 32.4076C7.61872 33.2671 8.78451 33.75 10.0001 33.75H30.0001C31.2157 33.75 32.3814 33.2671 33.241 32.4076C34.1005 31.548 34.5834 30.3822 34.5834 29.1667V10.8333C34.5834 9.61776 34.1005 8.45197 33.241 7.59243C32.3814 6.73289 31.2157 6.25 30.0001 6.25ZM32.0834 29.1667C32.0834 29.7192 31.8639 30.2491 31.4732 30.6398C31.0825 31.0305 30.5526 31.25 30.0001 31.25H10.0001C9.44755 31.25 8.91764 31.0305 8.52694 30.6398C8.13624 30.2491 7.91675 29.7192 7.91675 29.1667V16.25H32.0834V29.1667ZM7.91675 13.75V10.8333C7.91675 10.2808 8.13624 9.7509 8.52694 9.36019C8.91764 8.96949 9.44755 8.75 10.0001 8.75H30.0001C30.5526 8.75 31.0825 8.96949 31.4732 9.36019C31.8639 9.7509 32.0834 10.2808 32.0834 10.8333V13.75H7.91675Z"
+                fill="#7B7E8C"
+              ></path>
+            </svg>
+            <span style="font-size: 15px">25 Jul 2024</span>
+          </div>
+        </div>
+      </div>
+
+      <button class="btn-layanan text-white m-auto w-max">
+        PELAJARI SELENGKAPNYA
+      </button>
+    </div>
+
+    <div
+      style="
+        border-radius: 50px;
+        padding-bottom: 80px !important;
+        background-color: rgb(241, 246, 255);
+      "
+    >
+      <h1 class="text-center p-10">Mengapa memilih HiColleagues</h1>
+      <div class="custom-grid item-center justify-center">
+        <div
+          class="flex flex-col box space-y-4"
+          style="margin: 0px 20px; padding: 30px; height: 200px"
+        >
+          <img
+            data-v-5f35e613=""
+            src="https://www.hicolleagues.com/img/corporate/materi_relevan.png"
+            alt=""
+            width="60"
+            height="60"
+          />
+          <h2 style="font-size: 17px">
+            Akselerasi Pengembangan <br />
+            Perusahaan
+          </h2>
+          <p style="font-size: 13px" class="text-justify">
+            Berikan peluang untuk strategi yang tepat dan inovasi terbaru dalam
+            pengembangan profesional yang membantu perjalanan bisnis Anda.
+          </p>
+        </div>
+        <div
+          class="flex flex-col box space-y-4"
+          style="margin: 0px 20px; padding: 30px; height: 200px"
+        >
+          <img data-v-5f35e613=""
+          src=https://www.hicolleagues.com/img/corporate/keterlibatan_langsung.png
+          alt="" width="60" height="60" />
+          <h2 style="font-size: 17px">100% Menyesuaikan Kebutuhan Klien</h2>
+          <p style="font-size: 13px" class="text-justify">
+            Pelayanan yang disesuaikan dengan berbagai ukuran tim dan skala
+            bisnis sesuai dengan kebutuhan dan perkembangan seiring waktu.
+          </p>
+        </div>
+        <div
+          class="flex flex-col box space-y-4"
+          style="margin: 0px 20px; padding: 30px; height: 200px"
+        >
+          <img
+            data-v-5f35e613=""
+            src="https://www.hicolleagues.com/img/corporate/intensive_program.png"
+            alt=""
+            width="60"
+            height="60"
+          />
+          <h2 style="font-size: 17px">Reputable dan Terpercaya</h2>
+          <p style="font-size: 13px" class="text-justify">
+            Pengalaman menghadirkan solusi bagi klien yang membuat kami memiliki
+            sertifikasi yang menjamin kualitas mutu layanan berbagai kebutuhan
+            bisnis.
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col box space-y-4"
+          style="margin: 0px 20px; padding: 30px; height: 200px"
+        >
+          <img
+            data-v-5f35e613=""
+            src="https://www.hicolleagues.com/img/corporate/profesional_talent.png"
+            alt=""
+            width="60"
+            height="60"
+          />
+          <h2 style="font-size: 17px">Tim Profesional</h2>
+          <p style="font-size: 13px" class="text-justify">
+            Tim profesional dan berdedikasi yang siap memberikan solusi
+            prioritas terhadap kebutuhan spesifik untuk mencapai tujuan efektif
+            bisnis Anda.
+          </p>
+        </div>
+        <div
+          class="flex flex-col box space-y-4"
+          style="margin: 0px 20px; padding: 30px; height: 200px"
+        >
+          <img
+            data-v-5f35e613=""
+            src="https://www.hicolleagues.com/img/corporate/portfolio.png"
+            alt=""
+            width="60"
+            height="60"
+          />
+          <h2 style="font-size: 17px">Performa Laporan Kinerja Akuntabel</h2>
+          <p style="font-size: 13px" class="text-justify">
+            Laporan kinerja kami memberikan gambaran lengkap tentang performa
+            perusahaan mitra secara transparan dan terperinci.
+          </p>
+        </div>
+        <div
+          class="flex flex-col box space-y-4"
+          style="margin: 0px 20px; padding: 30px; height: 200px"
+        >
+          <img
+            data-v-5f35e613=""
+            src="https://www.hicolleagues.com/img/corporate/cs_responsif.png"
+            alt=""
+            width="60"
+            height="60"
+          />
+          <h2 style="font-size: 17px">Pelayanan 24/7</h2>
+          <p style="font-size: 13px" class="text-justify">
+            Tim support & manajemen layanan bantuan tersedia selama 24 jam dalam
+            7 hari untuk melayani setiap kebutuhan perusahaan.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="my-80 flex flex-col item-center justify-center">
+      <div>
+        <h1 class="text-center">Testimoni Kepuasan Klien Kamil</h1>
+        <div class="flex item-center justify-center space-x-8">
+          <div
+            class="flex flex-col box space-y-4"
+            style="padding: 30px; width: 300px; height: 200px"
+          >
+            <p style="font-size: 14px" class="text-justify clamped-text">
+              Setelah mengikuti pembelajaran Vue.JS dari team HiColleagues
+              selama 2 minggu ini sangat berkesan dan banyak ilmu yang didapat,
+              mulai dari yang belum mengenal Vue.JS sampai mengetahui
+              fundamental dan juga mengerjakan real project.
+            </p>
+            <div class="flex item-center" style="margin-top: auto">
+              <img
+                src="https://www.hicolleagues.com/img/corporate/zainuddin.png"
+                alt=""
+                width="60"
+                height="60"
+                style="border-radius: 9999px"
+              />
+              <div style="margin: 0px 10px">
+                <h2 style="font-size: 17px">Zainuddin</h2>
+                <p>Pegawai IT, PLN</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col box space-y-4"
+            style="padding: 30px; width: 300px; height: 200px"
+          >
+            <p style="font-size: 14px" class="text-justify clamped-text">
+              Materi yang dibawakan mudah dipahami dan materinya up-to-date
+              sehingga bisa diimplementasikan di PLN untuk real project, dan
+              semoga kedepan bisa bekerjasama kembali dengan HiColleagues agar
+              dapat melanjutkan materi mengenai Vue.JS lebih dalam lagi
+            </p>
+            <div class="flex item-center" style="margin-top: auto">
+              <img
+                src="https://www.hicolleagues.com/img/corporate/abdan%20nafik.png"
+                alt=""
+                width="60"
+                height="60"
+                style="border-radius: 9999px"
+              />
+              <div style="margin: 0px 10px">
+                <h2 style="font-size: 17px">Abdan Nafik</h2>
+                <p>Pegawai IT, PLN</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col box space-y-4"
+            style="padding: 30px; width: 300px; height: 200px"
+          >
+            <p style="font-size: 14px" class="text-justify clamped-text">
+              trainer membawakan materi dengan sangat jelas, metode pembelajaran
+              yang up to date dan mengikuti zaman now. Untuk materi yang
+              disampaikan sudah mencangkup semua baik native yang diperlukan
+              dalam mengembangkan suatu aplikasi. Saya mendapatkan pengetahuan
+              yang baru tentang React js seperti apa dan cara pemakaiannya
+            </p>
+            <div class="flex item-center" style="margin-top: auto">
+              <img
+                src="https://t9003038375.p.clickup-attachments.com/t9003038375/b0c8d4b1-6120-4a4b-8960-e59d79dd6f6b/Raden%20Teja%20Kusuma_%20Software%20Development%20Bank%20Jatim.png?view=open"
+                alt=""
+                width="60"
+                height="60"
+                style="border-radius: 9999px"
+              />
+              <div style="margin: 0px 10px">
+                <h2 style="font-size: 17px">Raden Teja</h2>
+                <p>Pegawai IT, PLN</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex item-center w-full">
+          <div class="border-x mx-20" style="position: relative">
+            <div
+              class="border-x-2"
+              style="position: absolute; top: -10px"
+            ></div>
+          </div>
+          <div class="flex space-x-4">
+            <img
+              src="https://www.hicolleagues.com/img/other/corporate-arrow-left.png"
+              alt="btn-left"
+              class="btn-left"
+              style="cursor: pointer"
+            />
+            <img
+              src="https://www.hicolleagues.com/img/other/corporate-arrow-right.png"
+              alt="btn-right"
+              class="btn-left"
+              style="cursor: pointer"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="text-center" style="margin: 80px 0px 0px 0px">
+          <h1>Formulir Pendaftaran Konsultasi</h1>
+          <p>
+            Langkah tepat optimasi bisnis melalui layanan Corporate Service
+            bersama HiColleagues
+          </p>
+        </div>
+        <form style="margin: 40px 0px">
+          <div class="custom-grid-2">
+            <label class="flex flex-col w-full">
+              <p>Nama Perusahaan <span style="color: red">*</span></p>
+              <input class="custom-input" type="text" />
+            </label>
+            <label class="flex flex-col w-full">
+              Website Perusahaan
+              <input class="custom-input" type="text" />
+            </label>
+            <label class="flex flex-col w-full">
+              <p>Nama Lengkap PIC <span style="color: red">*</span></p>
+
+              <input class="custom-input" type="text" />
+            </label>
+            <label class="flex flex-col w-full">
+              Okupasi PIC
+              <input class="custom-input" type="text" />
+            </label>
+            <label class="flex flex-col w-full">
+              <p>Email PIC <span style="color: red">*</span></p>
+              <input class="custom-input" type="text" />
+            </label>
+            <label class="flex flex-col w-full">
+              <p>No. Whatsapp PIC <span style="color: red">*</span></p>
+              <input class="custom-input" type="text" />
+            </label>
+          </div>
+          <label class="flex flex-col w-full py-10">
+            <p>
+              Proyeksi Kolaborasi/Kemitraan <span style="color: red">*</span>
+            </p>
+            <input class="custom-input" type="text" />
+          </label>
+          <div class="flex justify-center item-center">
+            <input aria-checked="true" type="checkbox" />
+            <label style="left: 0px; right: auto; position: relative">
+              <p class="text-14" style="margin: 0px 0px 0px 10px">
+                Dengan mengirim formulir ini saya menyetujui
+                <a class="navText font-700"> Syarat &amp; Ketentuan </a> untuk
+                melakukan kemitraan/kolaborasi bersama HiColleagues.
+              </p>
+            </label>
+          </div>
+          <div class="flex justify-center p-10">
+            <button
+              style="width: 300px"
+              disabled
+              class="btn-layanan text-white m-auto"
+            >
+              KIRIM
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div
+      style="border-radius: 40px; background-color: rgb(241, 246, 255)"
+      class="p-20 flex space-x-4"
+    >
+      <div class="w-max" style="width: 500px">
+        <h1>Frequently Asked <br />Question</h1>
+      </div>
+      <div class="ml-auto flex flex-col space-y-4 w-full">
+        <div
+          class="flex item-center"
+          style="
+            background-color: white;
+            padding: 20px;
+            border-radius: 20px;
+            font-size: 13px;
+          "
+        >
+          <h2>Di mana program corporate training HiColleagues diadakan?</h2>
+          <div style="margin-left: auto">
+            <svg
+              data-v-5f35e613=""
+              width="25"
+              height="25"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              style="transform: rotate(180deg); margin-right: 35px"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M15.9599 11.2929C16.3504 10.9024 16.9836 10.9024 17.3741 11.2929L25.3741 19.2929C25.7646 19.6834 25.7646 20.3166 25.3741 20.7071C24.9836 21.0976 24.3504 21.0976 23.9599 20.7071L16.667 13.4142L9.3741 20.7071C8.98357 21.0976 8.35041 21.0976 7.95989 20.7071C7.56936 20.3166 7.56936 19.6834 7.95989 19.2929L15.9599 11.2929Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </div>
+        </div>
+
+        <div
+          class="flex item-center"
+          style="
+            background-color: white;
+            padding: 20px;
+            border-radius: 20px;
+            font-size: 13px;
+          "
+        >
+          <h2>Bagaimana HiColleagues merancang program corporate training?</h2>
+          <div style="margin-left: auto">
+            <svg
+              data-v-5f35e613=""
+              width="25"
+              height="25"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              style="transform: rotate(180deg); margin-right: 35px"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M15.9599 11.2929C16.3504 10.9024 16.9836 10.9024 17.3741 11.2929L25.3741 19.2929C25.7646 19.6834 25.7646 20.3166 25.3741 20.7071C24.9836 21.0976 24.3504 21.0976 23.9599 20.7071L16.667 13.4142L9.3741 20.7071C8.98357 21.0976 8.35041 21.0976 7.95989 20.7071C7.56936 20.3166 7.56936 19.6834 7.95989 19.2929L15.9599 11.2929Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </div>
+        </div>
+
+        <div
+          class="flex item-center"
+          style="
+            background-color: white;
+            padding: 20px;
+            border-radius: 20px;
+            font-size: 13px;
+          "
+        >
+          <h2>
+            Berapa lama program corporate training HiColleagues berlangsung?
+          </h2>
+          <div style="margin-left: auto">
+            <svg
+              data-v-5f35e613=""
+              width="25"
+              height="25"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              style="transform: rotate(180deg); margin-right: 35px"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M15.9599 11.2929C16.3504 10.9024 16.9836 10.9024 17.3741 11.2929L25.3741 19.2929C25.7646 19.6834 25.7646 20.3166 25.3741 20.7071C24.9836 21.0976 24.3504 21.0976 23.9599 20.7071L16.667 13.4142L9.3741 20.7071C8.98357 21.0976 8.35041 21.0976 7.95989 20.7071C7.56936 20.3166 7.56936 19.6834 7.95989 19.2929L15.9599 11.2929Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo w-full">
+          <svg
+            width="209"
+            height="50"
+            viewBox="0 0 116 26"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20.9301 10.5588C20.9301 9.2346 19.8397 8.16139 18.4959 8.16139C17.1522 8.16139 16.0638 9.2346 16.0638 10.5588C16.0638 13.4621 13.6631 15.8248 10.7161 15.8248C7.76703 15.8248 5.36631 13.4621 5.36631 10.5588C5.36631 7.65539 7.76703 5.2927 10.7161 5.2927C12.0598 5.2927 13.1482 4.2195 13.1482 2.89533C13.1482 1.57321 12.0598 0.5 10.7161 0.5C5.08375 0.5 0.5 5.01114 0.5 10.5588C0.5 14.9842 3.41979 18.7506 7.46354 20.0911C7.03028 20.4727 6.45888 20.7073 5.83306 20.7073C4.48933 20.7073 3.40095 21.7805 3.40095 23.1026C3.40095 24.4268 4.48933 25.5 5.83306 25.5C9.12332 25.5 11.9133 23.3475 12.8301 20.3992C17.4515 19.4362 20.9301 15.3902 20.9301 10.5588Z"
+              fill="url(#paint0_linear_1259_12579)"
+            ></path>
+            <path
+              d="M13.0288 10.5567C13.0288 10.7057 13.0142 10.8546 12.9849 11.0015C12.9556 11.1484 12.9116 11.2913 12.853 11.428C12.7944 11.5667 12.7232 11.6973 12.6395 11.8217C12.5558 11.9462 12.4595 12.0625 12.3507 12.1686C12.2439 12.2727 12.1267 12.3685 12.0011 12.4502C11.8756 12.5338 11.7416 12.6052 11.6014 12.6624C11.4611 12.7195 11.3167 12.7623 11.166 12.7909C11.0174 12.8215 10.8667 12.8358 10.716 12.8358C10.5632 12.8358 10.4125 12.8215 10.2639 12.7909C10.1153 12.7623 9.9709 12.7195 9.83067 12.6624C9.69043 12.6052 9.55648 12.5338 9.4309 12.4502C9.30322 12.3685 9.18601 12.2727 9.07927 12.1686C8.97252 12.0625 8.87624 11.9462 8.79252 11.8217C8.70671 11.6973 8.63554 11.5667 8.57903 11.428C8.52043 11.2913 8.47647 11.1484 8.44717 11.0015C8.41787 10.8546 8.40112 10.7057 8.40112 10.5567C8.40112 10.4078 8.41787 10.2589 8.44717 10.112C8.47647 9.96505 8.52043 9.82427 8.57903 9.68553C8.63554 9.54679 8.70671 9.41621 8.79252 9.29175C8.87624 9.16729 8.97252 9.05099 9.07927 8.94693C9.18601 8.84084 9.30322 8.74494 9.4309 8.66333C9.55648 8.57968 9.69043 8.51031 9.83067 8.45114C9.9709 8.39401 10.1153 8.35116 10.2639 8.3226C10.4125 8.29403 10.5632 8.27771 10.716 8.27771C10.8667 8.27771 11.0174 8.29403 11.166 8.3226C11.3167 8.35116 11.4611 8.39401 11.6014 8.45114C11.7416 8.51031 11.8756 8.57968 12.0011 8.66333C12.1267 8.74494 12.2439 8.84084 12.3507 8.94693C12.4595 9.05099 12.5558 9.16729 12.6395 9.29175C12.7232 9.41621 12.7944 9.54679 12.853 9.68553C12.9116 9.82427 12.9556 9.96505 12.9849 10.112C13.0142 10.2589 13.0288 10.4078 13.0288 10.5567Z"
+              fill="#B80F0A"
+            ></path>
+            <path
+              d="M31.1146 6.79602V10.9338H26.8155V6.79602H24.4922V17.0976H26.8155V12.9415H31.1146V17.0976H33.4211V6.79602H31.1146Z"
+              fill="#162CA2"
+            ></path>
+            <path
+              d="M36.3956 9.07928C37.0654 9.07928 37.6284 8.53043 37.6284 7.87753C37.6284 7.2083 37.0654 6.67578 36.3956 6.67578C35.7259 6.67578 35.1628 7.2083 35.1628 7.87753C35.1628 8.53043 35.7259 9.07928 36.3956 9.07928ZM35.2675 17.0977H37.505V10.23H35.2675V17.0977Z"
+              fill="#162CA2"
+            ></path>
+            <path
+              d="M44.391 17.2344C46.4882 17.2344 48.3029 16.0836 49.2008 14.4024L47.1915 13.3884C46.6808 14.3677 45.6426 15.0206 44.391 15.0206C42.6119 15.0206 41.2556 13.6801 41.2556 11.9459C41.2556 10.2116 42.6119 8.87313 44.391 8.87313C45.6426 8.87313 46.6808 9.52604 47.1915 10.5033L49.2008 9.49135C48.3029 7.80809 46.4882 6.65735 44.391 6.65735C41.3979 6.65735 38.9658 9.0282 38.9658 11.9459C38.9658 14.8655 41.3979 17.2344 44.391 17.2344Z"
+              fill="#162CA2"
+            ></path>
+            <path
+              d="M53.8495 17.2345C56.2084 17.2345 57.7593 15.7246 57.7593 13.6639C57.7593 11.6032 56.2084 10.0913 53.8495 10.0913C51.4886 10.0913 49.9209 11.6032 49.9209 13.6639C49.9209 15.7246 51.4886 17.2345 53.8495 17.2345ZM53.8495 15.2941C52.8805 15.2778 52.1751 14.5902 52.1751 13.6639C52.1751 12.7356 52.8805 12.05 53.8495 12.0317C54.7998 12.05 55.5219 12.7356 55.5219 13.6639C55.5219 14.5902 54.7998 15.2778 53.8495 15.2941Z"
+              fill="#162CA2"
+            ></path>
+            <path
+              d="M59.0779 17.0976H61.3321V5.33521H59.0779V17.0976Z"
+              fill="#162CA2"
+            ></path>
+            <path
+              d="M63.1289 17.0976H65.3831V5.33521H63.1289V17.0976Z"
+              fill="#162CA2"
+            ></path>
+            <path
+              d="M74.3472 13.6454C74.3472 11.501 72.8318 10.0748 70.5588 10.0748C68.2878 10.0748 66.6846 11.5173 66.6846 13.6637C66.6846 15.8102 68.269 17.2343 70.6299 17.2343C72.5848 17.2343 73.8888 16.2223 74.2404 14.7288H72.0741C71.8795 15.2776 71.3688 15.6041 70.5944 15.6041C69.573 15.6041 69.0455 15.0022 68.9555 14.0249H74.3472V13.6454ZM70.5944 11.7581C71.352 11.7581 71.7916 12.1009 72.0218 12.7028H69.0978C69.326 12.1172 69.8011 11.7581 70.5944 11.7581Z"
+              fill="#162CA2"
+            ></path>
+            <path
+              d="M83.4868 15.3125C83.1875 15.3125 82.8694 15.2084 82.8694 14.6433V10.23H80.634V10.8299C80.1045 10.3668 79.4347 10.0913 78.6247 10.0913C76.6698 10.0913 75.1377 11.6726 75.1377 13.6639C75.1377 15.6553 76.6698 17.2345 78.6247 17.2345C79.6461 17.2345 80.4749 16.7897 81.038 16.0674C81.4775 16.7713 82.254 17.2345 83.2043 17.2345C83.4345 17.2345 83.6459 17.1671 83.8029 17.0978V15.3125H83.4868ZM79.0663 15.2941C78.1328 15.2941 77.3919 14.5739 77.3919 13.6639C77.3919 12.7539 78.1328 12.0317 79.0663 12.0317C79.981 12.0317 80.7387 12.7539 80.7387 13.6639C80.7387 14.5739 79.981 15.2941 79.0663 15.2941Z"
+              fill="#162CA2"
+            ></path>
+            <path
+              d="M92.2732 10.23H90.019V10.9156C89.4371 10.4014 88.6815 10.0913 87.8171 10.0913C85.8622 10.0913 84.3301 11.6542 84.3301 13.6639C84.3301 15.6553 85.8622 17.2345 87.8171 17.2345C88.6982 17.2345 89.4727 16.908 90.0545 16.3775V17.2875C90.0545 18.5566 89.3324 19.3299 88.1875 19.3299C87.3775 19.3299 86.7601 18.9014 86.4964 18.2138L84.4347 19.0218C85.0166 20.4296 86.3373 21.2355 88.1875 21.2355C90.7599 21.2355 92.292 19.7073 92.292 17.1671L92.2732 10.23ZM88.3801 15.2941C87.4466 15.2941 86.7078 14.5739 86.7078 13.6639C86.7078 12.7539 87.4466 12.0316 88.3801 12.0316C89.3136 12.0316 90.0713 12.7539 90.0713 13.6639C90.0713 14.5739 89.3136 15.2941 88.3801 15.2941Z"
+              fill="#162CA2"
+            ></path>
+            <path
+              d="M97.2567 17.2345C99.3875 17.2345 100.568 16.1531 100.568 14.4699V10.2301H98.3305V14.1781C98.3305 14.831 97.8721 15.2942 97.2567 15.2942C96.6581 15.2942 96.1998 14.831 96.1998 14.1781V10.2301H93.9456V14.4699C93.9456 16.1531 95.126 17.2345 97.2567 17.2345Z"
+              fill="#162CA2"
+            ></path>
+            <path
+              d="M109.391 13.6454C109.391 11.501 107.876 10.0748 105.603 10.0748C103.332 10.0748 101.729 11.5173 101.729 13.6637C101.729 15.8102 103.313 17.2343 105.674 17.2343C107.629 17.2343 108.933 16.2223 109.284 14.7288H107.118C106.923 15.2776 106.413 15.6041 105.638 15.6041C104.617 15.6041 104.089 15.0022 103.999 14.0249H109.391V13.6454ZM105.638 11.7581C106.396 11.7581 106.836 12.1009 107.066 12.7028H104.142C104.37 12.1172 104.845 11.7581 105.638 11.7581Z"
+              fill="#162CA2"
+            ></path>
+            <path
+              d="M112.947 17.2345C114.534 17.2345 115.501 16.2898 115.501 15.0024C115.501 13.6292 114.339 13.0804 113.334 12.7029C112.824 12.4968 112.577 12.3928 112.577 12.1357C112.577 11.9133 112.754 11.7399 113.142 11.7399C113.598 11.7399 114.021 11.9806 114.232 12.2377L115.36 11.0013C114.833 10.4871 113.968 10.0913 112.983 10.0913C111.379 10.0913 110.358 11.1217 110.358 12.2908C110.358 13.6639 111.767 14.1271 112.577 14.4188C113.211 14.6596 113.422 14.831 113.422 15.0717C113.422 15.3472 113.177 15.5002 112.807 15.5002C112.436 15.5002 111.942 15.3635 111.626 14.78L109.971 15.5859C110.393 16.6509 111.697 17.2345 112.947 17.2345Z"
+              fill="#162CA2"
+            ></path>
+            <defs>
+              <linearGradient
+                id="paint0_linear_1259_12579"
+                x1="10.7151"
+                y1="0.5"
+                x2="10.7151"
+                y2="25.5"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop offset="0.365693" stop-color="#FFE57E"></stop>
+                <stop offset="1" stop-color="#EACC56"></stop>
+              </linearGradient>
+            </defs>
+          </svg>
+          <p style="font-size: 18px; font-weight: 700">
+            PT Generasi Anak Muda Berkarya
+          </p>
+          <p style="font-size: 13px; font-weight: 500">
+            Grand Slipi Tower Jl. Letjen S Parman Kav 22-24, Palmerah, Jakarta
+            Barat, DKI Jakarta, 11480
+          </p>
+          <div class="flex space-x-4">
+            <div style="cursor: pointer">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1484_7012)">
+                  <path
+                    d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 0 15 0C6.71573 0 0 6.71573 0 15C0 23.2843 6.71573 30 15 30Z"
+                    fill="#575966"
+                  ></path>
+                  <path
+                    d="M19.6555 9.32792C19.4506 9.32792 19.2502 9.38881 19.0799 9.50286C18.9096 9.61691 18.7771 9.77898 18.699 9.9685C18.621 10.158 18.601 10.3665 18.6416 10.5674C18.6822 10.7683 18.7816 10.9526 18.9271 11.0969C19.0726 11.2412 19.2577 11.3391 19.459 11.378C19.6602 11.417 19.8685 11.3953 20.0573 11.3157C20.2462 11.2361 20.4072 11.1022 20.5198 10.9309C20.6325 10.7597 20.6917 10.5589 20.69 10.3539C20.69 10.2185 20.6632 10.0844 20.6111 9.95932C20.559 9.83428 20.4827 9.7208 20.3865 9.62541C20.2904 9.53003 20.1762 9.45463 20.0508 9.40357C19.9253 9.35251 19.791 9.3268 19.6555 9.32792Z"
+                    fill="#D3D6E1"
+                  ></path>
+                  <path
+                    d="M15.0758 10.6502C14.2185 10.6485 13.3799 10.9012 12.6662 11.3763C11.9526 11.8514 11.3959 12.5275 11.0666 13.3191C10.7374 14.1107 10.6504 14.9821 10.8166 15.8232C10.9828 16.6643 11.3948 17.4371 12.0005 18.044C12.6061 18.6508 13.3781 19.0643 14.2189 19.2322C15.0596 19.4001 15.9313 19.3147 16.7235 18.987C17.5158 18.6593 18.193 18.104 18.6695 17.3912C19.1459 16.6785 19.4003 15.8404 19.4003 14.9831C19.4003 13.8354 18.9449 12.7346 18.1342 11.9222C17.3234 11.1099 16.2235 10.6524 15.0758 10.6502ZM15.0758 17.7559C14.525 17.7575 13.9861 17.5956 13.5275 17.2907C13.0688 16.9857 12.711 16.5514 12.4994 16.0429C12.2879 15.5343 12.2321 14.9744 12.3391 14.4341C12.4462 13.8938 12.7112 13.3975 13.1007 13.008C13.4902 12.6185 13.9865 12.3535 14.5268 12.2464C15.0671 12.1394 15.627 12.1952 16.1356 12.4067C16.6441 12.6183 17.0784 12.9761 17.3834 13.4348C17.6883 13.8934 17.8502 14.4323 17.8486 14.9831C17.8463 15.7178 17.5535 16.4218 17.034 16.9413C16.5145 17.4608 15.8105 17.7536 15.0758 17.7559Z"
+                    fill="#D3D6E1"
+                  ></path>
+                  <path
+                    d="M18.5106 23.7424H11.4897C10.0893 23.7402 8.74696 23.1829 7.75676 22.1927C6.76656 21.2025 6.20927 19.8601 6.20703 18.4598V11.4728C6.20703 10.0709 6.76332 8.7264 7.75377 7.73437C8.74421 6.74233 10.0879 6.18389 11.4897 6.18164H18.5106C19.9124 6.18389 21.2561 6.74233 22.2465 7.73437C23.2369 8.7264 23.7932 10.0709 23.7932 11.4728V18.4937C23.7821 19.8881 23.2208 21.2218 22.2316 22.2047C21.2424 23.1876 19.9051 23.7402 18.5106 23.7424ZM11.4897 7.8436C10.5272 7.8436 9.60407 8.22595 8.92347 8.90656C8.24287 9.58716 7.86051 10.5103 7.86051 11.4728V18.4937C7.86051 19.4562 8.24287 20.3793 8.92347 21.0599C9.60407 21.7405 10.5272 22.1228 11.4897 22.1228H18.5106C19.4731 22.1228 20.3962 21.7405 21.0768 21.0599C21.7574 20.3793 22.1398 19.4562 22.1398 18.4937V11.4728C22.1398 10.5103 21.7574 9.58716 21.0768 8.90656C20.3962 8.22595 19.4731 7.8436 18.5106 7.8436H11.4897Z"
+                    fill="#D3D6E1"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_1484_7012">
+                    <rect width="30" height="30" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <div style="cursor: pointer">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1484_7019)">
+                  <path
+                    d="M30 15C29.9989 12.1335 29.1765 9.32736 27.6302 6.91374C26.0838 4.50013 23.8783 2.58013 21.2746 1.38105C18.671 0.181976 15.7783 -0.245966 12.939 0.14789C10.0997 0.541746 7.4327 1.74091 5.25375 3.6034C3.0748 5.4659 1.47514 7.91374 0.644143 10.6571C-0.186849 13.4005 -0.214371 16.3246 0.564835 19.0831C1.34404 21.8417 2.89734 24.3192 5.04085 26.2224C7.18436 28.1256 9.82831 29.3747 12.6597 29.8219V19.333H8.84398V15H12.6597V11.693C12.6597 7.93669 14.8982 5.85924 18.3239 5.85924C19.4603 5.87385 20.594 5.97305 21.7157 6.15602V9.84454H19.7908C19.4684 9.80137 19.1404 9.83124 18.831 9.93192C18.5216 10.0326 18.2389 10.2015 18.0036 10.4262C17.7683 10.6509 17.5865 10.9256 17.4717 11.23C17.3569 11.5344 17.312 11.8607 17.3403 12.1848V15H21.5037L20.8423 19.333H17.3403V29.8219C20.8694 29.2628 24.0832 27.4628 26.4038 24.7459C28.7245 22.0289 29.9996 18.5731 30 15Z"
+                    fill="#575966"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_1484_7019">
+                    <rect width="30" height="30" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <div style="cursor: pointer">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1484_7024)">
+                  <path
+                    d="M15 0C12.0333 0 9.13319 0.879735 6.66645 2.52796C4.19972 4.17618 2.27713 6.51886 1.14181 9.25975C0.00649927 12.0006 -0.290551 15.0166 0.288228 17.9264C0.867006 20.8361 2.29562 23.5088 4.39341 25.6066C6.49119 27.7044 9.16394 29.133 12.0737 29.7118C14.9834 30.2906 17.9994 29.9935 20.7403 28.8582C23.4812 27.7229 25.8238 25.8003 27.4721 23.3336C29.1203 20.8668 30 17.9667 30 15C30 11.0218 28.4197 7.20644 25.6066 4.3934C22.7936 1.58035 18.9783 0 15 0V0ZM11.2521 22.0972H8.06388V11.8711H11.2521V22.0972ZM9.65801 10.4805C9.29205 10.4822 8.93383 10.3752 8.62873 10.1731C8.32364 9.97101 8.08539 9.6829 7.94418 9.34528C7.80297 9.00766 7.76515 8.63573 7.83552 8.2766C7.90588 7.91747 8.08126 7.5873 8.33944 7.32794C8.59761 7.06857 8.92697 6.89167 9.28577 6.81966C9.64458 6.74764 10.0167 6.78375 10.3549 6.92341C10.6932 7.06306 10.9824 7.29998 11.1859 7.60415C11.3894 7.90831 11.498 8.26604 11.498 8.632C11.498 9.12078 11.3044 9.58968 10.9596 9.9361C10.6148 10.2825 10.1468 10.4783 9.65801 10.4805ZM23.1487 22.0972H19.9774V17.1283C19.9774 15.9412 19.9774 14.4149 18.3239 14.4149C16.6704 14.4149 16.4161 15.7038 16.4161 17.0435V22.1311H13.2448V11.8711H16.2889V13.2702H16.3313C16.6301 12.7394 17.0687 12.3007 17.5994 12.0017C18.1301 11.7027 18.7326 11.5549 19.3414 11.5743C22.5551 11.5743 23.1487 13.6942 23.1487 16.45V22.0972Z"
+                    fill="#575966"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_1484_7024">
+                    <rect width="30" height="30" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <div style="cursor: pointer">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.002 3.55727e-07C12.0348 -0.000645667 9.13406 0.878636 6.66663 2.52664C4.19919 4.17465 2.27589 6.51736 1.13995 9.2585C0.00400709 11.9996 -0.293541 15.0161 0.284931 17.9263C0.863404 20.8366 2.29191 23.5099 4.3898 25.6082C6.48769 27.7066 9.16072 29.1357 12.0708 29.7148C14.981 30.2939 17.9975 29.997 20.7388 28.8617C23.4802 27.7263 25.8233 25.8035 27.4719 23.3364C29.1204 20.8694 30.0004 17.9688 30.0004 15.0016C30.0004 11.0235 28.4203 7.20829 25.6076 4.39503C22.795 1.58177 18.9801 0.000866482 15.002 3.55727e-07ZM23.5855 13.1889C21.8545 13.264 20.3193 12.6924 18.8234 11.7322C18.8038 11.9739 18.7744 12.147 18.7744 12.3234C18.7744 14.4562 18.7744 16.589 18.7744 18.7251C18.7581 22.3179 16.1615 24.9537 12.4413 25.1987C9.45271 25.3947 6.45761 22.7915 5.98728 19.5906C5.42549 15.7659 8.65903 12.1927 12.5197 12.3821C12.7287 12.3821 12.9377 12.4344 13.1729 12.4638V15.8639C12.99 15.8639 12.8071 15.8639 12.6275 15.8639C10.8866 15.7692 9.49191 16.9777 9.42985 18.6402C9.40123 19.4022 9.67251 20.1451 10.1855 20.7093C10.6984 21.2736 11.4122 21.6142 12.1735 21.6581C13.9339 21.7235 15.2894 20.4921 15.2992 18.7186C15.3221 14.4497 15.2992 10.1807 15.2992 5.91508V4.97442H18.7189C19.0455 7.8944 20.7342 9.42951 23.5855 9.83452V13.1889Z"
+                  fill="#575966"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="footer-columns">
+          <div class="footer-column">
+            <h3>Program HiColleagues</h3>
+            <ul>
+              <li><a href="#">Bootcamp</a></li>
+              <li><a href="#">Public Training</a></li>
+              <li><a href="#">Prakerja</a></li>
+              <li><a href="#">Kampus Merdeka</a></li>
+              <li><a href="#">Event</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>HiColleagues Bisnis</h3>
+            <ul>
+              <li><a href="#">Corporate Service</a></li>
+              <li><a href="#">Acceleration Program</a></li>
+              <li><a href="#">Corporate Collaboration</a></li>
+              <li><a href="#">Corporate Training</a></li>
+              <li><a href="#">Talent as a Service</a></li>
+              <li><a href="#">Technology Service</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Tentang HiColleagues</h3>
+            <ul>
+              <li><a href="#">Tentang Kami</a></li>
+              <li><a href="#">Hubungi Kami</a></li>
+              <li><a href="#">Portofolio</a></li>
+              <li><a href="#">Artikel</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Lain-lain</h3>
+            <ul>
+              <li><a href="#">Kebijakan Privasi</a></li>
+              <li><a href="#">Syarat & Ketentuan</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright © 2024 - PT Generasi Anak Muda Berkarya</p>
+      </div>
+    </footer>
+  </body>
+</html>
